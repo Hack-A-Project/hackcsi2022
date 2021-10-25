@@ -11,7 +11,6 @@ export default function About() {
         src="https://res.cloudinary.com/andreahabib/image/upload/v1635172576/Ellipse_1_cae6w1.svg"
       ></img>
       <div className="top">
-        <Typography variant="h3">HackCSI 2022</Typography>
         <img
           alt="logo"
           className="logo"
@@ -32,6 +31,14 @@ export default function About() {
         >
           Apply Here
         </a>
+        <Typography className="arrow" variant="h3">
+          &#8595;
+        </Typography>
+        <img
+          className="ellipse3"
+          alt="ellpise3"
+          src="https://res.cloudinary.com/andreahabib/image/upload/v1635201608/Ellipse_3_gvigno.svg"
+        />
       </div>
       <div className="bottom">
         <div className="title">

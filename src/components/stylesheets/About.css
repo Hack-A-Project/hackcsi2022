@@ -14,10 +14,14 @@
   width: 400px;
 }
 
+.ellipse3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
 .top {
   height: 100vh;
-  padding-top: 48px;
-  padding-bottom: 48px;
   display: flex;
   width: 100%;
   position: relative;
@@ -54,7 +58,12 @@
   flex-wrap: wrap;
 }
 
+.arrow {
+  color: #e46a10;
+}
+
 .apply__button {
+  margin-bottom: 20px;
   background-color: #e46a10;
   padding: 10px;
   border-radius: 5px;
