@@ -50,6 +50,22 @@
   flex-wrap: wrap;
 }
 
+.apply__button {
+  background-color: #e46a10;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  margin-top: 15px;
+  box-shadow: 5px 5px #713609;
+  transition: box-shadow 0.5s;
+}
+
+.apply__button:hover {
+  box-shadow: 8px 8px #713609;
+  text-decoration: none;
+  color: white;
+}
+
 .card {
   display: flex;
   justify-content: center;

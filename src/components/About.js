@@ -19,6 +19,14 @@ export default function About() {
           aliquip ex ea commodo consequat. Sed do eiusmod tempor incididunt ut
           labore et dolore magna aliqua.
         </Typography>
+        <a
+          className="apply__button"
+          rel="noreferrer noopener"
+          target="_blank"
+          href="#"
+        >
+          Apply Here
+        </a>
       </div>
       <div className="bottom">
         <div className="title">
