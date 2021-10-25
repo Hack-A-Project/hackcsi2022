@@ -12,6 +12,11 @@ export default function About() {
       ></img>
       <div className="top">
         <Typography variant="h3">HackCSI 2022</Typography>
+        <img
+          alt="logo"
+          className="logo"
+          src="https://res.cloudinary.com/andreahabib/image/upload/v1635171987/Hackcsi_2022_2_haehnz.svg"
+        />
         <Typography className="about__hackathon" variant="body1">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

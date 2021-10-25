@@ -10,8 +10,12 @@
   width: 100vw;
 }
 
+.logo {
+  width: 400px;
+}
+
 .top {
-  height: 65vh;
+  height: 100vh;
   padding-top: 48px;
   padding-bottom: 48px;
   display: flex;
