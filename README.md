@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with HackCSI 2022
+
+Figma design: https://www.figma.com/file/kHBMV2uyFe5yRIblhTo7ua/HackCSI2022?node-id=1%3A98
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
