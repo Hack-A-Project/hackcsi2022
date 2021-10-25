@@ -23,7 +23,7 @@ export default function About() {
           className="apply__button"
           rel="noreferrer noopener"
           target="_blank"
-          href="#"
+          href="#void"
         >
           Apply Here
         </a>
