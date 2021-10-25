@@ -2,7 +2,7 @@
   position: absolute;
   right: 0;
   top: 0;
-  width: 8rem;
+  width: 7.5rem;
 }
 
 .about {
@@ -11,7 +11,7 @@
 }
 
 .top {
-  height: 50vh;
+  height: 55vh;
   padding-top: 48px;
   padding-bottom: 48px;
   display: flex;
@@ -30,7 +30,8 @@
 
 .about__hackathon {
   padding: 8px;
-  width: 24rem;
+  width: 72%;
+  text-align: center;
 }
 
 .bottom {
