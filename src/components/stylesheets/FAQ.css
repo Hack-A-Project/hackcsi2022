@@ -6,13 +6,30 @@
   background-color: #e46a10;
 }
 
-.faq {
-  border-top: 1px solid white;
-}
-
 .faq__top_text {
   color: black;
   padding: 24px;
   background-color: white;
   border-radius: 10px;
+}
+
+.faq__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  width: 100%;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.faq {
+  flex-basis: 40%;
+  margin: 20px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 30px;
+  box-shadow: 0 0 10px 1px #e46a10;
+  border-radius: 15px;
 }
