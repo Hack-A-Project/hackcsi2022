@@ -1,0 +1,14 @@
+.landing {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: #e46a10;
+  background-image: linear-gradient(0deg, #e46a10 0%, #ff820e 50%);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  background-position: center;
+  background-image: url("https://res.cloudinary.com/andreahabib/image/upload/v1635171987/Hackcsi_2022_2_haehnz.svg");
+}

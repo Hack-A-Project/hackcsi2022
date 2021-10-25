@@ -1,0 +1,18 @@
+.top__faq {
+  height: 26vh;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #e46a10;
+}
+
+.faq {
+  border-top: 1px solid white;
+}
+
+.faq__top_text {
+  color: black;
+  padding: 24px;
+  background-color: white;
+  border-radius: 10px;
+}
