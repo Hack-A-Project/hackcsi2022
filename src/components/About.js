@@ -1,10 +1,17 @@
 import React from "react";
 import "./stylesheets/About.css";
 import { Typography } from "@mui/material";
+import { LightSwitch } from ".";
 
-export default function About() {
+export default function About({ isOn, setIsOn }) {
   return (
-    <div className="about">
+    <div
+      className="about"
+      style={{ backgroundColor: isOn ? "white" : "#181818" }}
+    >
+      <div style={{ paddingTop: 40, paddingLeft: 30 }}>
+        <LightSwitch isOn={isOn} setIsOn={setIsOn} />
+      </div>
       <img
         alt="ellipse"
         className="ellipse"
@@ -16,7 +23,11 @@ export default function About() {
           className="logo"
           src="https://res.cloudinary.com/andreahabib/image/upload/v1635171987/Hackcsi_2022_2_haehnz.svg"
         />
-        <Typography className="about__hackathon" variant="body1">
+        <Typography
+          className="about__hackathon"
+          variant="body1"
+          style={{ color: isOn ? "black" : "#f3f3f3" }}
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -45,7 +56,13 @@ export default function About() {
           <Typography variant="h3">ENDLESS POSSIBILITIES</Typography>
         </div>
         <div className="cards">
-          <div className="card">
+          <div
+            className="card"
+            style={{
+              backgroundColor: isOn ? "white" : "#181818",
+              color: isOn ? "black" : "#f3f3f3",
+            }}
+          >
             <Typography variant="h4">Creativity</Typography>
             <div className="card__body">
               <Typography variant="body1">
@@ -57,7 +74,13 @@ export default function About() {
               </Typography>
             </div>
           </div>
-          <div className="card">
+          <div
+            className="card"
+            style={{
+              backgroundColor: isOn ? "white" : "#181818",
+              color: isOn ? "black" : "#f3f3f3",
+            }}
+          >
             <Typography variant="h4">Innovation</Typography>
             <div className="card__body">
               <Typography variant="body1">
@@ -69,7 +92,13 @@ export default function About() {
               </Typography>
             </div>
           </div>
-          <div className="card">
+          <div
+            className="card"
+            style={{
+              backgroundColor: isOn ? "white" : "#181818",
+              color: isOn ? "black" : "#f3f3f3",
+            }}
+          >
             <Typography variant="h4">Impact</Typography>
             <div className="card__body">
               <Typography variant="body1">

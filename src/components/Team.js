@@ -2,9 +2,15 @@ import { Typography } from "@mui/material";
 import React from "react";
 import "./stylesheets/Team.css";
 
-export default function Team() {
+export default function Team({ isOn }) {
   return (
-    <div className="team">
+    <div
+      className="team"
+      style={{
+        backgroundColor: isOn ? "white" : "#181818",
+        color: isOn ? "black" : "#f3f3f3",
+      }}
+    >
       <img
         className="left__ellpise"
         alt="ellpise"

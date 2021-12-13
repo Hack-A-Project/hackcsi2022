@@ -1,20 +1,17 @@
+import React, { useState } from "react";
 import "./App.css";
-import About from "./components/About";
-import FAQ from "./components/FAQ";
-import Sponsors from "./components/Sponsors";
-import Team from "./components/Team";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import { About, Contact, FAQ, Footer, Sponsors, Team } from "./components";
 
 function App() {
+  const [isOn, setIsOn] = useState(true);
   return (
     <div className="App">
-      <About />
-      <FAQ />
-      <Sponsors />
-      <Team />
-      <Contact />
-      <Footer />
+      <About isOn={isOn} setIsOn={setIsOn} />
+      <FAQ isOn={isOn} />
+      <Sponsors isOn={isOn} />
+      <Team isOn={isOn} />
+      <Contact isOn={isOn} />
+      <Footer isOn={isOn} />
     </div>
   );
 }
