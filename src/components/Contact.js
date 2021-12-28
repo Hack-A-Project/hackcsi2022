@@ -3,7 +3,7 @@ import { useForm, ValidationError } from "@formspree/react";
 import "./stylesheets/Contact.css";
 import { Typography } from "@mui/material";
 
-export default function Contact() {
+export default function Contact({ isOn }) {
   const [state, handleSubmit] = useForm("mayazako");
   if (state.succeeded) {
     return (
@@ -13,8 +13,19 @@ export default function Contact() {
     );
   }
   return (
-    <div className="contact">
-      <form className="form" onSubmit={handleSubmit}>
+    <div
+      className="contact"
+      style={{
+        color: isOn ? "black" : "#f3f3f3",
+      }}
+    >
+      <form
+        className="form"
+        onSubmit={handleSubmit}
+        style={{
+          backgroundColor: isOn ? "white" : "#181818",
+        }}
+      >
         <Typography className="contact__title" variant="h4">
           Got A Question?
         </Typography>

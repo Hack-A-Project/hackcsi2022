@@ -8,6 +8,7 @@
 .about {
   position: relative;
   width: 100vw;
+  color: var(--color);
 }
 
 .logo {
