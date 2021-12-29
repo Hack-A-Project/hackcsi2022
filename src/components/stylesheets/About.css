@@ -1,100 +1,107 @@
 .ellipse {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 7.5rem;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 7.5rem;
 }
 
 .about {
-  position: relative;
-  width: 100vw;
-  color: var(--color);
+	position: relative;
+	width: 100vw;
+	color: var(--color);
 }
 
 .logo {
-  width: 400px;
+	width: 900px;
+	margin-top: -100px;
 }
 
 .ellipse3 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 
 .top {
-  height: 100vh;
-  display: flex;
-  width: 100%;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+	height: 100vh;
+	display: flex;
+	width: 100%;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 .title {
-  padding-top: 42px;
-  color: white;
-  text-align: center;
+	padding-top: 42px;
+	color: white;
+	text-align: center;
 }
 
 .about__hackathon {
-  padding: 8px;
-  width: 72%;
-  text-align: center;
+	padding: 8px;
+	width: 72%;
+	text-align: center;
 }
 
 .bottom {
-  background-color: #e46a10;
+	background-color: #e46a10;
 }
 
 .cards {
-  padding-top: 40px;
-  padding-bottom: 80px;
-  width: 100%;
-  height: auto;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+	padding-top: 40px;
+	padding-bottom: 80px;
+	width: 100%;
+	height: auto;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
 .arrow {
-  color: #e46a10;
+	color: #e46a10;
 }
 
 .apply__button {
-  margin-bottom: 20px;
-  background-color: #e46a10;
-  padding: 10px;
-  border-radius: 5px;
-  color: white;
-  margin-top: 15px;
-  box-shadow: 5px 5px #713609;
-  transition: box-shadow 0.5s;
+	margin-bottom: 20px;
+	background-color: #e46a10;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+	margin-top: 15px;
+	box-shadow: 5px 5px #713609;
+	transition: box-shadow 0.5s;
+	text-decoration: none;
+}
+
+.apply__button:visited {
+	text-decoration: none;
+	color: white;
 }
 
 .apply__button:hover {
-  box-shadow: 8px 8px #713609;
-  text-decoration: none;
-  color: white;
+	box-shadow: 8px 8px #713609;
+	text-decoration: none;
+	color: white;
 }
 
 .card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  flex: 1 1 150px;
-  height: 45vh;
-  margin: 20px;
-  background-color: white;
-  border-radius: 15px;
-  padding: 16px;
-  box-shadow: 15px 15px #713609;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex: 1 1 150px;
+	height: 45vh;
+	margin: 20px;
+	background-color: white;
+	border-radius: 15px;
+	padding: 16px;
+	box-shadow: 15px 15px #713609;
 }
 
 .card__body {
-  margin-top: 20px;
-  padding: 10px;
+	margin-top: 20px;
+	padding: 10px;
 }
